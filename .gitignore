@@ -44,10 +44,12 @@ datasets/
 *.parquet
 *.zip
 *.gz
+out/csv/
 
-# diagrams & exports=
+# charts, diagrams, exports
 exports/
 output/
+out/img/
 *.tmp
 *.bak
 *.old
@@ -63,9 +65,25 @@ logs/
 .vscode/
 .idea/
 *.iml
+*.swp
+*.swo
 
 # credentials & configs
 config.json
+config.yaml
+*.ini
+*.env
+*.secret
+.env.*
+.env.local
+.env.dev
+.env.production
+.env.example
+
+# misc
+*.retry
+*.cache
+__MACOSX/
 config.yaml
 *.ini
 *.env
