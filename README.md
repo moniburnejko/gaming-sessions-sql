@@ -53,6 +53,8 @@ the project will populate PostgreSQL with synthetic gameplay + purchases, create
   - `avg_session_time_by_device.png`
   - `retention7d_by_country.png`
   - `returned_pie.png`
+- **example outputs** in `out/example/` (included in repo)
+  - contains a small sample of generated charts and CSVs for quick preview
     
 ### behavior summary:
 - **data generation** (`python/generate_seed.py`)
