@@ -45,6 +45,8 @@ datasets/
 *.zip
 *.gz
 out/csv/
+/out/*
+!/out/example/
 
 # charts, diagrams, exports
 exports/
