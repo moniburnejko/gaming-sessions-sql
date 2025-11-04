@@ -1,5 +1,5 @@
 """
-charts_gaming_db.py
+make_charts.py
 purpose: pull key sql reports from the Gaming Sessions DB and produce CSVs and charts.
 """
 
